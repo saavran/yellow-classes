@@ -1,0 +1,52 @@
+.modal {
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background-color: #ffffffda;
+}
+
+.modal .modal-body {
+    width: 800px;
+    margin: 0 auto;
+    text-align: center;
+    height: 100%;
+}
+
+.modal .modal-body .left, .modal .modal-body .right {
+    position: absolute;
+    top: 50%;
+    transform: translate(0,-50%);
+    cursor: pointer;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 50%;
+}
+
+.modal .modal-body .left {
+    left: 50px;
+}
+
+.modal .modal-body .right {
+    right: 50px;
+}
+
+.modal .modal-body .close {
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    cursor: pointer;
+}
+
+.modal .modal-body .image-wrap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.modal .modal-body .image-wrap img {
+    max-width: 600px;
+    border-radius: 30px;
+}

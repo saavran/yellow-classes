@@ -1,0 +1,26 @@
+.picture-grid {
+    max-width: 1080px;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+.picture-grid .grid-wrapper {
+    column-count: 5;
+}
+
+.grid-wrapper .image-wrap {
+    margin: 0 20px 20px 0;
+    width: 200px;
+    cursor: pointer;
+}
+
+.grid-wrapper .image-wrap:hover img {
+    scale: 1.1;
+    box-shadow: 0px 5px 30px #000000;
+}
+
+.picture-grid .grid-wrapper .image-wrap img {
+    width: 100%;
+    border-radius: 20px;
+    transition: 0.4s ease-out;
+}
